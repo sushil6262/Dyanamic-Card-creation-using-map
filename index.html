@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="formRequiredStyle.css">
+    <title>Document</title>
+    <style>
+        .marginStyle{
+            padding:10px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body onload="init()">
+    <br/>
+    <center>
+        <form id="form" class="simple-form container">
+            <input type="text" required autocomplete="off" placeholder="name" id="name">
+            <input type="text" required autocomplete="off" placeholder="designation" id="designation">
+            <input type="text" required autocomplete="off" placeholder="address" id="address">
+            <button id ="submit" class="btn btn-primary">submit</button>
+    </form>
+    </center>
+        <br/>
+        <br/>
+    <div id="flxx">
+            <div class="profileContainer">
+                    <div class="container">
+                        <div class="row" id="card"></div>
+                    </div>
+                </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
